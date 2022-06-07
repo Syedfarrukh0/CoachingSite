@@ -1,0 +1,825 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    border: 2px solid red;
+    width: auto;
+    height: 500vh;
+    height: auto;
+    background-color: #00203fff;
+    background-image: url(../pictures/Coaching\ System\ \(bg\).jpg);
+    background-size: 100% 100%;
+    
+}
+
+
+
+header{
+    /* border: 2px solid black; */
+    /* background-color: rgba(173, 239, 209, 0.685); */
+    background-color: white;
+    border-radius: 0.2vw;
+    width: auto;
+    /* height: 8vh; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    /* border: 2px solid black; */
+    border-bottom: 4px solid rgb(173, 239, 209);
+    width: 12vw;
+    height: 6.5vw;
+    position: relative;
+}
+
+.logo-img{
+    width: 20vw;
+    height: 17vw;
+    position: absolute;
+    top: -5vw;
+    left: -2vw;
+
+}
+
+
+.section-name{
+    /* border: 2px solid yellow; */
+    border-bottom: 4px solid rgb(173, 239, 209);
+    width: 100%;
+    height: auto;
+}
+
+header .section-name h2{
+    /* color:#00203fff; */
+    color: #000080;
+    font-weight: bolder;
+    /* text-shadow: 2px 2px 3px #00203fff; */
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+	transform: translate(-50%, -50%) skew(-10deg) rotate(0deg);
+	font-size: 5.5vw;
+	top: 3vw;
+	left: 47%;
+	margin: 0;
+	position: relative;
+    text-shadow: 1px 1px 1px rgb(173, 239, 209),
+    -1px 2px 1px rgb(173, 239, 209),
+    -1px 3px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+    -1px 4px 1px rgb(173, 239, 209),
+1px 10px 6px rgb(16, 16, 16),
+1px 15px 10px rgba(16, 16, 16, 0.281),
+1px 20px 35px rgb(16, 16, 16),
+1px 25px 30px rgba(16,16,16,0.4);
+}
+
+
+
+
+
+nav{
+    /* border: 2px solid goldenrod; */
+    width: auto;
+    height: 3vw;
+    box-sizing: border-box;
+    background-color: rgba(173, 239, 209, 0.685);
+    background-color: white;
+    background-color: navy;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.list-1{
+    margin-left: 4vw;
+}
+
+nav ul{
+    position: relative;
+    height: 7vh;
+    display: flex;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    margin: 1vw;
+    line-height: 1.3vw;
+}
+
+nav ul li a{
+    margin-left: 1vw;
+    padding: 0.4vw;
+    padding-top: 0.7vw;
+    text-decoration: none;
+    color: #00203fff;
+    color: #000080;
+    color: rgb(173, 239, 209);
+    font-size: 1.8vw;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #000080;
+    background-color: #00203fff;
+    background-color: #000080;
+    background-color: rgb(173, 239, 209);
+    box-shadow:  0 7px 10px rgba(0, 0, 0, 0.5);
+    color: #000080;
+}
+
+.admission-list-a , .Academic-portal-list-a , .library-list-a{
+    padding-right: 1.5vw;
+}
+
+.downarrow{
+    position: absolute;
+    top: -0.4vw;
+    right: 0.1vw;
+
+}
+
+nav .Dropdownlist-1 {
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background-color: rgb(0, 31, 63);
+    background-color: #000080;
+    background-color: rgb(173, 239, 209);
+    width: 25vw;
+    height: 9vw;
+    position: absolute;
+    left: 1.1vw;
+    top: 2.1vw;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.719);
+    display: none;
+}
+
+nav ul .admission-list:hover .Dropdownlist-1{
+    z-index: 1;
+    display: block;
+}
+
+nav ul .library-list:hover .Dropdownlist-1{
+    z-index: 1;
+    display: block;
+}
+
+nav .Dropdownlist-1-ul{
+    display: block;
+}
+
+nav .Dropdownlist-1-ul .Dropdownlist-1-li a{
+    color: #000080;
+    line-height: 20px;
+    font-size: 1.3vw;
+}
+
+nav .Dropdownlist-1-ul .Dropdownlist-1-li .Dropdownlist-1-a:hover{
+    border-bottom-left-radius: 1px solid  rgb(173, 239, 209);
+}
+
+.search{
+    position: relative;
+    top: -5px;
+    left: 3.5vw;
+    margin-left: 3.5vw;
+    padding: 0.4vw;
+    padding-top: 0.7vw;
+    text-decoration: none;
+    color: #00203fff;
+    font-size: 1.8vw;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.search span i{
+    color: rgb(173, 239, 209);
+}
+
+.search span i:hover{
+    color: navy;
+}
+
+.Dropdown-search-list{
+    border-radius: 8px;
+    background-color: rgb(0, 31, 63);
+    background-color: #000080;
+    background-color: rgb(173, 239, 209);
+    width: 25vw;
+    height: 4vw;
+    position: absolute;
+    left: -13vw;
+    top: 2vw;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.719);
+    display: none;
+}
+
+#search-result , label{
+    width: 11vw;
+    height: 1.5vw;
+    cursor: pointer;
+}
+
+nav ul .search-list:hover .Dropdown-search-list{
+    z-index: 1;
+    display: block;
+}
+
+
+
+
+aside{
+    border: 2px solid yellow;
+    background-color: rgba(0, 31, 63, 0.836);
+    width: auto;
+    height: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+aside > h1{
+    color: rgb(173, 239, 209);
+    color: white;
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+
+aside > h2{
+    color: rgb(173, 239, 209);
+    color: white;
+}
+
+aside > h2 > a{
+    color: skyblue;
+    /* color: white; */
+}
+
+aside > h2 > a:hover{
+    color: turquoise;
+    color: rgb(228, 217, 124);
+    text-decoration: none;
+}
+
+
+
+
+section{
+    border: 2px solid red;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.join-now{
+    /* border: 2px solid blueviolet; */
+    background-color: rgba(128, 128, 128, 0.541);
+    border-radius: 1vw;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    width: 69vw;
+    height: auto;
+    /* display: flex; */
+}
+
+.join-now > h1{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2.3vw;
+    padding: 1vw;
+}
+
+.join-now > P{
+    /* margin-top: 1vw; */
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+.join-now > h1 > a{
+    color: darkblue;
+}
+
+.join-now > h1 > a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.about{
+    /* border: 2px solid darkblue; */
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 31, 63, 0.836);
+    margin-top: 1vw;
+    margin-left: auto;
+    width: 28.5vw;
+    width: auto;
+    height: 85.5vw;
+    position: absolute;
+    left: 70vw;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.about > h1{
+    margin-top: 5vw;
+    text-align: center;
+    color: white;
+    /* color: rgb(173, 239, 209);
+    color: skyblue; */
+    padding: 0.5vw;
+    font-size: 3vw;
+}
+
+.about > p{
+    color: white;
+    color: rgb(173, 239, 209);
+    font-size: 1.5vw;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    padding: 0.2vw;
+    text-align: center;
+}
+
+.about > h2{
+    color: white;
+    /* color: rgb(173, 239, 209); */
+    font-size: 1.8vw;
+    padding: 0.2vw;
+}
+
+
+
+
+.medical-colleges{
+    /* border: 2px solid brown; */
+    background-color: rgba(255, 255, 255, 0.329);
+    margin-top: 1vw;
+    width: 70vw;
+    height: 71vw;
+}
+
+.medical-colleges .medical-colleges-images > a{
+    color: navy;
+    text-decoration: none;
+}
+
+.medical-colleges > h1{
+    font-size: 2.4vw;
+    text-align: center;
+    padding: 0.2vw;
+}
+
+.medical-colleges > h1 > span{
+    color: red;
+}
+
+.medical-colleges-images{
+    /* border:2px solid fuchsia; */
+    background-color: transparent;
+    width: auto;
+    height: 15vw;
+    height: auto;
+    margin-top: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.medical-colleges-images-all{
+    /* border: 2px solid green; */
+    width: 23vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.3 ease-in-out;
+}
+
+.medical-colleges-images-all:hover{
+    transform: skewY(-1deg);
+}
+
+.medical-colleges-a:hover .medical-colleges-images-all{
+    overflow: visible;
+}
+
+.medical-colleges-img-size{
+    /* border: 2px solid brown; */
+    width: 18vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+}
+
+.medical-colleges-img{
+    width: 100%;
+    height: 100%;
+}
+
+.medical-colleges-images-h4{
+    font-size: 1.5vw;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.teaching-method{
+    /* border: 2px solid tomato; */
+    background-color: rgba(128, 128, 128, 0.541);
+    width: auto;
+    height: auto;
+}
+
+.teaching-method > h1{
+    text-align: center;
+    font-size: 3vw;
+    padding: 1vw;
+}
+
+.teaching-method > p{
+    padding: 1vw;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+.teaching-method > h2{
+    padding: 2vw;
+}
+
+.teaching-method-p{
+    /* padding: 1vw; */
+    margin-left: 1vw;
+    line-height: 3vw;
+}
+
+
+/* ----------------------------------(FOOTER)--------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------- */
+
+
+
+
+footer{
+    /* border: 2px solid blue; */
+    /* border-radius: 2vw; */
+    background-color: #000000cb;
+    /* background-color: #ffffff; */
+    /* background: linear-gradient(to right, #808080cb , #808080d5); */
+    width: auto;
+    height: 50vh;
+    /* box-shadow: inset 1px 6px 12px #ffffff, inset -1px -10px 5px #ffffff, 1px 2px 1px #ffffff; */
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------
+----------------------------------------------(ABOUT US)--------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+ 
+.about-us{
+    /* border: 2px solid rgb(9, 54, 255); */
+    padding: 5px;
+    margin: 1vw;
+    width: 40vw;
+    height: 37vh;
+    
+}
+ 
+.about-us h1{
+     color: rgb(173, 239, 209);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px ;
+     font-size: 1.5vw;
+}
+ 
+.about-us p{
+     color: white;
+     padding: 10px;
+     font-size: 1.3vw;
+     text-align: justify;
+}
+
+.about-us p a{
+    color: skyblue;
+}
+
+.about-us p a:hover{
+    color: white;
+}
+ 
+.about-us .icons{
+     /* border: 2px solid brown; */
+     width: auto;
+     height: auto;
+     margin: 10px;
+}
+ 
+.about-us .icons a{
+     color: white;
+     text-decoration: none;
+     margin: 5px;
+     transition: 0.5s all;
+     
+}
+
+.about-us .icons a:hover{
+    color: skyblue;
+    transform: translateY(3vh);
+}
+
+
+ 
+/* ----------------------------------------------------------------------------------------------------------
+----------------------------------------------(ADDRESS)--------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+ 
+.address{
+     /* border: 2px solid black; */
+     color: white;
+     padding: 5px;
+     margin: 1vw;
+     width: 40vw;
+     height: 37vh;
+}
+ 
+.address h1{
+     color: rgb(173, 239, 209);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px ;
+     font-size: 1.5vw;
+}
+ 
+.address .place{
+     /* border: 2px solid yellow; */
+     width: auto;
+     height: auto;
+     padding: 5px;
+     margin: 10px;
+     display: flex;
+     text-align: center;
+     /* justify-content: center; */
+}
+ 
+address .place .place-img{
+     /* border: 2px solid chartreuse; */
+     width: 2.5vw;
+     height: 2.5vw;
+}
+ 
+.place-img span{
+     width: 100%;
+     height: 100%;
+}
+ 
+.address .place-detail{
+     font-size: 1.5vw;
+     margin-left: 1vw;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+ 
+.address .number{
+     /* border: 2px solid yellow; */
+     width: auto;
+     height: auto;
+     margin: 10px;
+     padding: 5px;
+     display: flex;
+     text-align: center;
+}
+ 
+address .number .number-img{
+     /* border: 2px solid chartreuse; */
+     width: 2vw;
+     height: 2vw;
+}
+ 
+.number-img span{
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+}
+ 
+.address .number-detail{
+     font-size: 1.5vw;
+     margin-left: 1vw;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+ 
+.address .mail{
+     /* border: 2px solid yellow; */
+     width: auto;
+     height: auto;
+     margin: 10px;
+     padding: 5px;
+     display: flex;
+     text-align: center;
+}
+ 
+.address .mail .mail-img{
+     /* border: 2px solid chartreuse; */
+     width: 2vw;
+     height: 2vw;
+}
+ 
+.mail-img span{
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+}
+ 
+.address .mail-detail{
+     font-size: 1.5vw;
+     letter-spacing: 2px;
+     margin-left: 2vw;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+ 
+/* ----------------------------------------------------------------------------------------------------------
+----------------------------------------------(CONTACT US)--------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+ 
+.contact-us{
+     /* border: 2px solid green; */
+     padding: 5px;
+     margin: 1vw;
+     width: 40vw;
+     height: 37vh;
+}
+ 
+.contact-us h1{
+     color: rgb(173, 239, 209);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px ;
+     font-size: 1.5vw;
+}
+ 
+.contact-us .e-search{
+     /* border: 2px solid navy; */
+     width: auto;
+     height: auto;
+     padding: 5px;
+     margin: 10px;
+     line-height: 1.5vw;
+}
+ 
+.contact-us label{
+     color: white;
+     cursor: pointer;
+}
+ 
+.contact-us input{
+     background-color: transparent;
+     color: white;
+     width: auto;
+     height: 1.6vw;
+     box-shadow: inset 0 0 3px wheat; 
+}
+ 
+.contact-us .text-area{
+     /* border: 2px solid navy; */
+     color: white;
+     width: auto;
+     height: auto;
+     padding: 5px;
+     margin: 10px;
+     line-height: 1.5vw;
+}
+ 
+#text-area{
+     background-color: transparent;
+     color: white;
+     box-shadow: inset 0 0 3px rgb(173, 239, 209);
+}
+ 
+.contact-us .btn{
+     /* border: 2px solid brown; */
+     width: auto;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     text-align: center
+}
+ 
+.contact-us button{
+     /* border: 2px solid navy; */
+     background-color: teal;
+     box-shadow: inset 0 0 3px wheat;
+     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+     box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+     width: 25vw;
+     height: 2.5vw;
+     padding: 5px;
+     transition: 0.5s ease-in-out;
+}
+ 
+.contact-us button:hover{
+     background-color: rgb(173, 239, 209);
+     box-shadow: none;
+}
+ 
+ .btn button p{
+     display: block;
+     color: white;
+     font-size: 1vw;
+}
+
+.btn button p:hover{
+    color: black;
+}
+
+
+
+
+.page-up{
+    border: 2px solid green;
+    background-color: #000000cb;
+    border-radius: 250px;
+    width: 4vw;
+    height: auto;
+    position: fixed;
+    bottom: 0%;
+    right: 4vw;
+    z-index: 1;
+    text-align: center;
+}
+
+.page-up:hover{
+    border: 3px solid black;
+    background-color: rgba(173, 239, 209, 0.76);
+}
+
+.page-up > a{
+    color: rgb(173, 239, 209);
+}
+
+.page-up > a:hover{
+    color: black;
+}
+
+.page-up > span{
+    cursor: pointer;
+}
+
+
+
+
+
+.copy-right{
+    /* border: 2px solid yellow; */
+    border-top: 1px solid rgb(173, 239, 209);
+    background-color: #000000cb;
+    padding: 1vw;
+    width: auto;
+    height: 2vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.copy-icon{
+    /* border: 2px solid red; */
+    color: rgb(173, 239, 209);
+    width: 30vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.copy-icon > span{
+    margin-left: 2vw;
+}
+
+.copy-icon > p{
+    color: rgb(173, 239, 209);
+    margin-left: 1vw;
+    font-size: 1.2vw;
+}
